@@ -1,0 +1,24 @@
+/* Main */
+.main {
+  background: #f7f5eb;
+}
+/* NavBar*/
+.fm {
+  background-color: #e93173;
+  margin: 4px;
+  padding: 0 4px 0 4px;
+}
+.master {
+  background-color: #e93173;
+  padding: 0 4px 0 4px;
+  color: #f1d244;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.live {
+  color: #cf4545 !important;
+  border-bottom: 1px solid #cf4545;
+}
+.live img {
+  height: 18px;
+}
