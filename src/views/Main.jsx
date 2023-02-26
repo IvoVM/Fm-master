@@ -1,9 +1,10 @@
-import { NavBar,Carrousel } from "../components";
+import { NavBar,Carrousel,Players } from "../components";
 const Main = () => {
   return (
     <div className="main" >
       <NavBar />
       <Carrousel />
+      <Players />
     </div>
   );
 };
