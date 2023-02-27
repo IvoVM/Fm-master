@@ -1,11 +1,10 @@
 const Player = (props) => {
   return (
-    <div className="player">
-      <h3>
-        Escucha <span className="master">{props.info.title}</span> en vivo las
-        24hs
+    <div className="player d-flex flex-column align-items-center">
+      <h3 className="p-2">
+        Escucha <span className="player-title">{props.info.title}</span> en vivo las 24hs
       </h3>
-      <iframe width="350px" height="120px" src={props.info.url}></iframe>
+      <iframe width="310px" height="120px" src={props.info.url}></iframe>
     </div>
   );
 };

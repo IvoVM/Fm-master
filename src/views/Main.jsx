@@ -1,11 +1,13 @@
+import Container from 'react-bootstrap/Container';
 import { NavBar,Carrousel,Players } from "../components";
 const Main = () => {
   return (
-    <div className="main" >
-      <NavBar />
+    <Container fluid className='p-0'>
+      <NavBar  />
       <Carrousel />
       <Players />
-    </div>
+    </Container>
+      
   );
 };
 
