@@ -6,13 +6,14 @@
 .master {
   background-color: #e93173;
   color: #f1d244;
+  padding: 0.2rem;
+  margin: 0.2rem;
 }
 
 /* Navbar */
 .collapse {
   justify-content: end;
 }
-
 
 .live img {
   height: 13px;
@@ -30,20 +31,33 @@
   object-fit: cover;
 }
 /* Player */
-.player-title{
+.player {
+  background-color: #edede9;
+  min-width: 391px;
+  border-radius: 20px;
+}
+.player-title {
   color: #e93173;
 }
+
+.about {
+  background-color: #edede9;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 900px) {
   .live p {
-    margin: 0 !important
+    margin: 0 !important;
   }
-  .live img{
+  .live img {
     margin: 0 !important;
   }
   .carousel-item img {
     height: 450px;
     padding: 0;
+  }
+  .about {
+    flex-wrap: wrap;
   }
 }
