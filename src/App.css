@@ -1,3 +1,4 @@
+/* Global */
 .fm {
   background-color: #e93173;
   margin: 4px;
@@ -9,15 +10,25 @@
   padding: 0.2rem;
   margin: 0.2rem;
 }
+.rose {
+  color: #e93173 !important;
+  font-weight: 800 !important;
+}
 
 /* Navbar */
+
 .collapse {
   justify-content: end;
 }
-
+.nav-link {
+  cursor: pointer;
+}
+.nav-link:hover {
+  transition: 0.5s;
+  color: #fff !important;
+}
 .live img {
   height: 13px;
-  margin-bottom: 0.8rem;
 }
 .live p {
   color: red;
@@ -27,7 +38,7 @@
 
 .carousel-item img {
   height: 550px;
-  padding: 0 20px;
+  padding: 0 60px;
   object-fit: cover;
 }
 /* Player */
@@ -36,21 +47,16 @@
   min-width: 391px;
   border-radius: 20px;
 }
-.player-title {
-  color: #e93173;
-}
-
+/* About */
 .about {
   background-color: #edede9;
 }
+
 
 /* Responsive */
 
 @media screen and (max-width: 900px) {
   .live p {
-    margin: 0 !important;
-  }
-  .live img {
     margin: 0 !important;
   }
   .carousel-item img {
