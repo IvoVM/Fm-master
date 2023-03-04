@@ -1,4 +1,5 @@
 /* Global */
+
 .fm {
   background-color: #e93173;
   margin: 4px;
@@ -35,6 +36,7 @@
   border-bottom: 2px solid red;
 }
 /* Carousel */
+
 .carousel-item {
   padding: 0 80px;
   height: 650px;
@@ -45,14 +47,42 @@
   min-height: 100%;
 }
 /* Player */
+
 .player {
   background-color: #edede9;
   min-width: 391px;
   border-radius: 20px;
 }
 /* About */
+
 .about {
   background-color: #edede9;
+}
+
+/* TeamCards */
+
+.react-multi-carousel-track {
+  margin: 0 0 0 2rem !important;
+}
+.react-multi-carousel-list {
+  padding: 2rem 0;
+}
+.card-image {
+  object-fit: cover;
+  height: 299px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+  cursor: pointer;
+}
+.card-description {
+  background-color: #f1faee;
+  font-weight: 800;
+  height: 170px;
 }
 
 

@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TeamCard from "./TeamCard.jsx";
 import flag from "../assets/images/flag.png";
+import { teamCards } from "../utils/utils.js";
 const TeamCards = () => {
   const responsive = {
     superLargeDesktop: {
@@ -23,19 +24,18 @@ const TeamCards = () => {
     },
   };
   return (
-    <section id="teamcard" className="teamcard-section">
+    <section id="teamcard">
       <div className=" team-cards-title d-flex justify-content-center align-center text-center m-2 ">
         <img src={flag} />
-        <h2 className="p-1"><span className="rose">Master</span> tiene equipo</h2>
+        <h2 className="p-1">
+          <span className="rose">Master</span> tiene equipo
+        </h2>
         <img src={flag} />
       </div>
       <Carousel responsive={responsive}>
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
+        {teamCards.map((item) => (
+          <TeamCard key={item.id} props={item} />
+        ))}
       </Carousel>
     </section>
   );
