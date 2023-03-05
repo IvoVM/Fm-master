@@ -19,17 +19,19 @@ import carimg16 from "../assets/images/carousel/car16.jpg";
 import carimg17 from "../assets/images/carousel/car17-edit.jpg";
 import carimg18 from "../assets/images/carousel/car18-edit.jpg";
 
+
 // Import  TeamCards Component Images
 
 import cardimg1 from "../assets/images/TeamCards/JUAN.jpg";
 import cardimg2 from "../assets/images/TeamCards/dany 2.jpg";
 import cardimg3 from "../assets/images/TeamCards/JORGE.jpg";
 import cardimg4 from "../assets/images/TeamCards/HERNAN MARINO-edit.jpg";
-import cardimg5 from "../assets/images/carousel/car15.jpg";
+import cardimg5 from "../assets/images/TeamCards/camila.jpg";
 import cardimg6 from "../assets/images/TeamCards/CHINITO.jpg";
 import cardimg7 from "../assets/images/TeamCards/Gelli.jpg";
 import cardimg8 from "../assets/images/TeamCards/VERO.jpg";
 import cardimg9 from "../assets/images/TeamCards/moni.jpg";
+
 
 
 
