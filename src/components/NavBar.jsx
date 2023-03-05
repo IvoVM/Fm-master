@@ -49,16 +49,7 @@ function NavBar() {
           >
             Familia Master
           </Link>
-          <Link
-            to="schedule"
-            spy={true}
-            smooth={false}
-            offset={-100}
-            duration={500}
-            className="nav-link d-flex align-items-center"
-          >
-            Programación
-          </Link>
+        
           <Link
             to="contact"
             spy={true}
@@ -68,6 +59,16 @@ function NavBar() {
             className="nav-link d-flex align-items-center"
           >
             Contactarse
+          </Link>
+          <Link
+            to="schedule"
+            spy={true}
+            smooth={false}
+            offset={-100}
+            duration={500}
+            className="nav-link d-flex align-items-center"
+          >
+            Programación
           </Link>
         </Nav>
       </Navbar.Collapse>
