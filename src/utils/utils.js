@@ -24,11 +24,13 @@ import carimg18 from "../assets/images/carousel/car18-edit.jpg";
 import cardimg1 from "../assets/images/TeamCards/JUAN.jpg";
 import cardimg2 from "../assets/images/TeamCards/dany 2.jpg";
 import cardimg3 from "../assets/images/TeamCards/JORGE.jpg";
-import cardimg4 from "../assets/images/TeamCards/HERNAN MARINO.jpg";
+import cardimg4 from "../assets/images/TeamCards/HERNAN MARINO-edit.jpg";
 import cardimg5 from "../assets/images/carousel/car15.jpg";
 import cardimg6 from "../assets/images/TeamCards/CHINITO.jpg";
 import cardimg7 from "../assets/images/TeamCards/Gelli.jpg";
 import cardimg8 from "../assets/images/TeamCards/VERO.jpg";
+import cardimg9 from "../assets/images/TeamCards/moni.jpg";
+
 
 
 // Carrousel Component
@@ -132,10 +134,11 @@ const teamCards = [
   },
   {
     id: 3,
-    name: "Jorge Caraballo",
-    img: cardimg3,
-    participations: '"De todo un poco"',
+    name: "Veronica Morosinotto",
+    img: cardimg8,
+    participations: '"aasdsdasd"',
   },
+
   {
     id: 4,
     name: "Hernan Marino",
@@ -153,18 +156,24 @@ const teamCards = [
     name: 'Alberto "Chinito" Medrano',
     img: cardimg6,
     participations: '"Recorriendo el Litoral" y "Con Esencia Romántica"',
+  },{
+    id: 7,
+    name: "Jorge Caraballo",
+    img: cardimg3,
+    participations: '"De todo un poco"',
   },
   {
-    id: 7,
+    id: 8,
     name: "Gelli, Alejandra, Dylan",
     img: cardimg7,
     participations: '"Que lo sepa la calle"',
   },{
-    id: 8,
-    name: "Veronica Morosinotto",
-    img: cardimg8,
-    participations: '"aasdsdasd"',
+    id: 9,
+    name: "Monica Gonzales",
+    img: cardimg9,
+    participations: '"Resumen 24"',
   },
+  
 ];
 
 // Schedule Component
