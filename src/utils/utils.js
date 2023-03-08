@@ -19,7 +19,6 @@ import carimg16 from "../assets/images/carousel/car16.jpg";
 import carimg17 from "../assets/images/carousel/car17-edit.jpg";
 import carimg18 from "../assets/images/carousel/car18-edit.jpg";
 
-
 // Import  TeamCards Component Images
 
 import cardimg1 from "../assets/images/TeamCards/JUAN.jpg";
@@ -31,9 +30,9 @@ import cardimg6 from "../assets/images/TeamCards/CHINITO.jpg";
 import cardimg7 from "../assets/images/TeamCards/Gelli.jpg";
 import cardimg8 from "../assets/images/TeamCards/VERO.jpg";
 import cardimg9 from "../assets/images/TeamCards/moni.jpg";
-
-
-
+import cardimg10 from "../assets/images/TeamCards/lucas.jpg";
+import cardimg11 from "../assets/images/TeamCards/AGUI.jpg";
+import cardimg12 from "../assets/images/TeamCards/ezequiel.jpg";
 
 // Carrousel Component
 
@@ -46,7 +45,7 @@ const carouselContent = [
     id: 2,
     img: carimg2,
   },
-  
+
   {
     id: 4,
     img: carimg4,
@@ -55,7 +54,7 @@ const carouselContent = [
     id: 5,
     img: carimg5,
   },
- 
+
   {
     id: 7,
     img: carimg7,
@@ -138,18 +137,18 @@ const teamCards = [
     id: 3,
     name: "Veronica Morosinotto",
     img: cardimg8,
-    participations: '"aasdsdasd"',
+    participations: '"Mastermanía"',
   },
 
   {
     id: 4,
     name: "Hernan Marino",
     img: cardimg4,
-    participations: '"Batidos musicales"',
+    participations: '"Batidos musicales y Evocando tangos"',
   },
   {
     id: 5,
-    name: "Camila Lopez",
+    name: "Camila López",
     img: cardimg5,
     participations: '"A Cami Tenes"',
   },
@@ -158,86 +157,43 @@ const teamCards = [
     name: 'Alberto "Chinito" Medrano',
     img: cardimg6,
     participations: '"Recorriendo el Litoral" y "Con Esencia Romántica"',
-  },{
+  },
+  {
     id: 7,
     name: "Jorge Caraballo",
     img: cardimg3,
     participations: '"De todo un poco"',
   },
   {
+    id: 11,
+    name: "Agui Romero",
+    img: cardimg11,
+    participations: '"Saltando sin parar"',
+  },
+  {
     id: 8,
     name: "Gelli, Alejandra, Dylan",
     img: cardimg7,
     participations: '"Que lo sepa la calle"',
-  },{
+  },
+  {
+    id: 10,
+    name: "Gustavo Olarieta y Lucas",
+    img: cardimg10,
+    participations: '"Despertate noticias"',
+  },
+  {
     id: 9,
     name: "Monica Gonzales",
     img: cardimg9,
-    participations: '"Resumen 24"',
+    participations: '"Arriba Miramar"',
   },
-  
+  {
+    id: 12,
+    name: "Ezequiel Gutierrez",
+    img: cardimg12,
+    participations: '"De todo un poco"',
+  },
 ];
 
-// Schedule Component
-
-const scheduleDays = [
-  {
-    day: "Lunes",
-    id: 1,
-  },
-  {
-    day: "Martes",
-    id: 2,
-  },
-  {
-    day: "Miercoles",
-    id: 3,
-  },
-  {
-    day: "Jueves",
-    id: 4,
-  },
-  {
-    day: "Viernes",
-    id: 5,
-  },
-  {
-    day: "Sábado",
-    id: 6,
-  },
-  {
-    day: "Domingo",
-    id: 7,
-  },
-];
-const scheduleDays6to8 = [
-  {
-    name: "La matera",
-    id: 1,
-  },
-  {
-    name: "La matera",
-    id: 2,
-  },
-  {
-    name: "La matera",
-    id: 3,
-  },
-  {
-    name: "La matera",
-    id: 4,
-  },
-  {
-    name: "La matera",
-    id: 5,
-  },
-  {
-    name: "la mañana del chinito medrano",
-    id: 6,
-  },
-  {
-    name: "la mañana del chinito medrano",
-    id: 7,
-  },
-];
-export { carouselContent, players, teamCards, scheduleDays, scheduleDays6to8 };
+export { carouselContent, players, teamCards };
