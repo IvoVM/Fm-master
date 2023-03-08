@@ -15,18 +15,21 @@ const ContactMe = () => {
           <div>
             <div className="m-3 text-center">
               <div className="fw-bold">Dirección</div>
-              <div>Calle 39 y 26</div>
-              <div>N° 1300</div>
+              <div>Avenida 26</div>
+              <div>N° 2001</div>
             </div>
             <div className="m-3 text-center">
               <div className="fw-bold">Teléfono</div>
               <div> 420300</div>
-              <div>02291 523123</div>
+              <div>420389</div>
             </div>
             <div className="m-3 text-center">
               <div className="fw-bold">Email</div>
-              <div>codinglab@gmail.com</div>
-              <div>info.codinglab@gmail.com</div>
+              <div>fmmastermiramar@yahoo.com.ar</div>
+            </div>
+            <div className="m-3 text-center">
+              <div className="fw-bold">Facebook</div>
+              <div><a href="" target="_blank" className="text-decoration-none">Juan Mastrangelo</a></div>
             </div>
           </div>
         </div>
