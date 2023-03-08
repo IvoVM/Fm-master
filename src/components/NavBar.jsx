@@ -11,7 +11,7 @@ function NavBar() {
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="p-3">
       <Navbar.Brand>
         <Link  className="nav-link" to="home" spy={true} smooth={false} offset={-100} duration={500}>
-          <span className="master">Master</span>105.3{" "}
+          <span className="master p-1 m-1">Master</span>105.3{" "}
           <span className="fm">FM</span>
         </Link>
       </Navbar.Brand>

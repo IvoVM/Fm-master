@@ -5,13 +5,14 @@ import {
   AboutUs,
   TeamCards,
   ContactMe,
-  Schedule
+  Schedule,Semanario
 } from "../components";
 const Main = () => {
   return (
     <Container fluid className='p-0'>
       <NavBar />
       <Header />
+      <Semanario />
       <AboutUs />
       <TeamCards />
       <ContactMe />

@@ -11,20 +11,20 @@ const TeamCards = () => {
       items: 5,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 910 },
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 910, min: 700 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 700, min: 0 },
       items: 1,
     },
   };
   return (
-    <section id="teamcard">
+    <section id="teamcard" className="mt-5">
       <div className=" team-cards-title d-flex justify-content-center align-center text-center m-2 ">
         <img src={flag} />
         <h2 className="p-1">
