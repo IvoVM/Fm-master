@@ -1,79 +1,99 @@
-import Table from "react-bootstrap/Table";
-import { scheduleDays, scheduleDays6to8 } from "../utils/utils.js";
-function ResponsiveExample() {
-  return (
-    <section  id="schedule">
-      <h3 className="text-center mt-5">Programación de la radio</h3>
-      <div className="m-5">
-        <Table responsive>
-          <thead className="text-center">
-            <tr>
-              <th>#</th>
-              {scheduleDays.map((item) => (
-                <th key={item.id}>{item.day}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody className="text-center">
-            <tr>
-              <td>6:00 a 8:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>8:00 a 10:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>10:00 a 12:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>12:00 a 14:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>14:00 a 16:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>16:00 a 18:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>18:00 a 20:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>20:00 a 22:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-            <tr>
-              <td>22:00 a 24:00</td>
-              {scheduleDays6to8.map((item) => (
-                <td key={item.id}>{item.name}</td>
-              ))}
-            </tr>
-          </tbody>
-        </Table>
-      </div>
-    </section>
-  );
+import Accordion from 'react-bootstrap/Accordion';
+import ListGroup from 'react-bootstrap/ListGroup';
+
+function ScheduleAcordion() {
+    return (
+        <section className='d-flex justify-content-center align-items-center flex-column mt-4'>
+            <h2 >Horarios de los programas</h2>
+            <Accordion className='schedule m-4'>
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>Lunes</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
+                            <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
+                            <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
+                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                    <Accordion.Header>Martes</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
+                            <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
+                            <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
+                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                    <Accordion.Header>Miercoles</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
+                            <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
+                            <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
+                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="3">
+                    <Accordion.Header>Jueves</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
+                            <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
+                            <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
+                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="4">
+                    <Accordion.Header>Viernes</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
+                            <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
+                            <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
+                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="5">
+                    <Accordion.Header>Sábado</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6 a 8: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00 a 10:30: resumen 24</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="6">
+                    <Accordion.Header>Domingo</Accordion.Header>
+                    <Accordion.Body>
+                        <ListGroup>
+                            <ListGroup.Item>6 a 8: La Matera</ListGroup.Item>
+                            <ListGroup.Item>8:00 a 10:30: resumen 24</ListGroup.Item>
+                        </ListGroup>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+
+        </section>
+
+    );
 }
 
-export default ResponsiveExample;
+export default ScheduleAcordion;
