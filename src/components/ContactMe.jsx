@@ -14,21 +14,21 @@ const ContactMe = () => {
           </div>
           <div>
             <div className="m-3 text-center">
-              <div className="fw-bold">Dirección</div>
-              <div>Avenida 26</div>
-              <div>N° 2001</div>
+              <p className="fw-bold m-0">Dirección</p>
+              <p className="m-0">Avenida 26</p>
+              <p className="m-0">N° 2001</p>
             </div>
             <div className="m-3 text-center">
-              <div className="fw-bold">Teléfono</div>
-              <div> 420300</div>
-              <div>420389</div>
+              <p className="fw-bold m-0">Teléfono</p>
+              <p className="m-0"> 420300</p>
+              <p className="m-0">420389</p>
             </div>
             <div className="m-3 text-center">
-              <div className="fw-bold">Email</div>
-              <div>fmmastermiramar@yahoo.com.ar</div>
+              <p className="fw-bold m-0">Email</p>
+              <p className="m-0">fmmastermiramar@yahoo.com.ar</p>
             </div>
             <div className="m-3 text-center">
-              <div className="fw-bold">Facebook</div>
+              <p className="fw-bold m-0">Facebook</p>
               <div><a href="" target="_blank" className="text-decoration-none">Juan Mastrangelo</a></div>
             </div>
           </div>
