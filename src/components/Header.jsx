@@ -5,7 +5,7 @@ const Header = () => {
             <h2 className="text-center p-4">
                 23 años siendo <span className="rose"> tu mejor compañia!!!</span>
             </h2>
-            <div className=' header'>
+            <div className='header'>
                 <Carrousel />
                 <Players />
             </div>
