@@ -1,10 +1,9 @@
 import Container from 'react-bootstrap/Container';
-import { 
+import {
   NavBar,
-  Carrousel, 
-  Players, 
+  Header,
   AboutUs,
-  TeamCards, 
+  TeamCards,
   ContactMe,
   Schedule
 } from "../components";
@@ -12,14 +11,12 @@ const Main = () => {
   return (
     <Container fluid className='p-0'>
       <NavBar />
-      <Carrousel />
-      <Players />
+      <Header />
       <AboutUs />
       <TeamCards />
       <ContactMe />
       <Schedule />
     </Container>
-
   );
 };
 
