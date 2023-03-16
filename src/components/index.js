@@ -8,6 +8,8 @@ export {default as AboutUs} from './AboutUs';
 export {default as TeamCards} from './TeamCards';
 export {default as ContactMe} from './ContactMe';
 export {default as Schedule} from './Schedule';
+export {default as Footer} from './Footer';
+
 
 
 

@@ -1,17 +1,15 @@
 /* Global */
 
-
 .fm {
   background-color: #e93173;
   margin: 4px;
-  padding: .1rem .2rem;
+  padding: 0.1rem 0.2rem;
   border-radius: 5px;
 }
 .master {
   background-color: #e93173;
   color: #f1d244;
   border-radius: 5px;
-
 }
 .rose {
   color: #e93173 !important;
@@ -102,6 +100,7 @@
   width: 500px;
   transition: 0.4s;
 }
+
 /* Responsive */
 @media screen and (max-width: 1200px) {
   .header {
@@ -126,7 +125,7 @@
   .about {
     flex-wrap: wrap;
   }
-  .semanario{
+  .semanario {
     width: 100% !important;
   }
 }

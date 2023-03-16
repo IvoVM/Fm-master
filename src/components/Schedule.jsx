@@ -3,7 +3,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 function ScheduleAcordion() {
     return (
-        <section className='d-flex justify-content-center align-items-center flex-column mt-4'>
+        <section id='schedule' className='d-flex justify-content-center align-items-center flex-column mt-4'>
             <h2>Programación</h2>
             <Accordion className='schedule m-4'>
                 <Accordion.Item eventKey="0">

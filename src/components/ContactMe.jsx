@@ -23,7 +23,9 @@ const ContactMe = () => {
             </div>
             <div className="mt-4">
               <p className="fw-bold m-0">Facebook</p>
-              <div><a href="" target="_blank" className="text-decoration-none">Juan Mastrangelo</a></div>
+              <div><a href="https://www.facebook.com/juan.mastrangelo.1" target="_blank" className="text-decoration-none">Juan Mastrangelo</a></div>
+              <div><a href="https://www.facebook.com/fmmastermiramar/?locale=es_LA" target="_blank" className="text-decoration-none">Radio Master</a></div>
+
             </div>
             <div className="mt-4">
               <p className="fw-bold m-0">Email</p>
