@@ -18,6 +18,8 @@ import carimg15 from "../assets/images/carousel/car15.jpg";
 import carimg16 from "../assets/images/carousel/car16.jpg";
 import carimg17 from "../assets/images/carousel/car17-edit.jpg";
 import carimg18 from "../assets/images/carousel/car18-edit.jpg";
+import carimg19 from "../assets/images/carousel/car19.jpeg";
+
 
 // Import  TeamCards Component Images
 
@@ -102,6 +104,9 @@ const carouselContent = [
   {
     id: 18,
     img: carimg18,
+  }, {
+    id: 19,
+    img: carimg19,
   },
 ];
 
