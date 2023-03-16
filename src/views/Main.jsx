@@ -5,7 +5,8 @@ import {
   AboutUs,
   TeamCards,
   ContactMe,
-  Schedule,Semanario
+  Schedule,Semanario,
+  Footer
 } from "../components";
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
       <TeamCards />
       <ContactMe />
       <Schedule />
+      <Footer />
     </Container>
   );
 };
