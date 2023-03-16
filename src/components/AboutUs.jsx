@@ -5,7 +5,7 @@ const AboutUs = () => {
       <h2 className="text-center">Historia del <span className="rose">Grupo Master de Comunicación</span></h2>
       <div className="p-3 about d-flex align-items-center justify-content-center">
         <div>
-          <img src={logo} width="400" height="260" />
+          <img src={logo} width="100%" height="auto" />
         </div>
         <div className="text-center m-4">
           <p>

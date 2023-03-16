@@ -20,7 +20,6 @@ import carimg17 from "../assets/images/carousel/car17-edit.jpg";
 import carimg18 from "../assets/images/carousel/car18-edit.jpg";
 import carimg19 from "../assets/images/carousel/car19.jpeg";
 
-
 // Import  TeamCards Component Images
 
 import cardimg1 from "../assets/images/TeamCards/JUAN.jpg";
@@ -35,6 +34,13 @@ import cardimg9 from "../assets/images/TeamCards/moni.jpg";
 import cardimg10 from "../assets/images/TeamCards/lucas.jpg";
 import cardimg11 from "../assets/images/TeamCards/AGUI.jpg";
 import cardimg12 from "../assets/images/TeamCards/ezequiel.jpg";
+import cardimg13 from "../assets/images/TeamCards/clara.jpeg";
+import cardimg14 from "../assets/images/TeamCards/monica.jpg";
+import cardimg15 from "../assets/images/TeamCards/santy.jpg";
+import cardimg16 from "../assets/images/TeamCards/aldy.jpg";
+import cardimg17 from "../assets/images/TeamCards/pablo-nadia-marcelo.jpeg";
+
+
 
 // Carrousel Component
 
@@ -49,63 +55,64 @@ const carouselContent = [
   },
 
   {
-    id: 4,
+    id: 3,
     img: carimg4,
   },
   {
-    id: 5,
+    id: 4,
     img: carimg5,
   },
 
   {
-    id: 7,
+    id: 5,
     img: carimg7,
   },
   {
-    id: 8,
+    id: 6,
     img: carimg8,
   },
   {
-    id: 9,
+    id: 7,
     img: carimg9,
   },
   {
-    id: 10,
+    id: 8,
     img: carimg10,
   },
   {
-    id: 11,
+    id: 9,
     img: carimg11,
   },
   {
-    id: 12,
+    id: 10,
     img: carimg12,
   },
   {
-    id: 13,
+    id: 11,
     img: carimg13,
   },
   {
-    id: 14,
+    id: 12,
     img: carimg14,
   },
   {
-    id: 15,
+    id: 13,
     img: carimg15,
   },
   {
-    id: 16,
+    id: 14,
     img: carimg16,
   },
   {
-    id: 17,
+    id: 15,
     img: carimg17,
   },
   {
-    id: 18,
+    id: 16,
     img: carimg18,
-  }, {
-    id: 19,
+  },
+  {
+    id: 17,
     img: carimg19,
   },
 ];
@@ -144,60 +151,85 @@ const teamCards = [
     img: cardimg8,
     participations: '"Mastermanía"',
   },
-
   {
     id: 4,
+    name: "Clara Alvarenga",
+    img: cardimg13,
+    participations: '"Claramente Romántica"',
+  },
+  {
+    id: 5,
     name: "Hernan Marino",
     img: cardimg4,
     participations: '"Batidos musicales y Evocando tangos"',
   },
   {
-    id: 5,
+    id: 6,
     name: "Camila López",
     img: cardimg5,
     participations: '"A Cami Tenes"',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Alberto "Chinito" Medrano',
     img: cardimg6,
     participations: '"Recorriendo el Litoral" y "Con Esencia Romántica"',
   },
   {
-    id: 7,
+    id: 8,
     name: "Jorge Caraballo",
     img: cardimg3,
     participations: '"De todo un poco"',
   },
   {
-    id: 11,
+    id: 9,
     name: "Agui Romero",
     img: cardimg11,
     participations: '"Saltando sin parar"',
+  },{
+    id: 17,
+    name: "Pablo, Marcelo y Nadia",
+    img: cardimg17,
+    participations: '"Abriendo Caminos',
   },
   {
-    id: 8,
+    id: 10,
     name: "Gelli, Alejandra, Dylan",
     img: cardimg7,
     participations: '"Que lo sepa la calle"',
   },
   {
-    id: 10,
+    id: 11,
     name: "Gustavo Olarieta y Lucas",
     img: cardimg10,
     participations: '"Despertate noticias"',
   },
   {
-    id: 9,
-    name: "Monica Gonzales",
+    id: 12,
+    name: "Monica Tissone",
     img: cardimg9,
     participations: '"Arriba Miramar"',
   },
   {
-    id: 12,
+    id: 13,
     name: "Ezequiel Gutierrez",
     img: cardimg12,
     participations: '"De todo un poco"',
+  },{
+    id: 14,
+    name: "Monica Gonzalez",
+    img: cardimg14,
+    participations: '',
+  },{
+    id: 15,
+    name: "Santy",
+    img: cardimg15,
+    participations: '',
+  },{
+    id: 16,
+    name: "Aldana Roca",
+    img: cardimg16,
+    participations: '',
   },
 ];
 
