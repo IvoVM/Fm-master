@@ -3,7 +3,7 @@ const Header = () => {
     return (
         <header id="home">
             <h2 className="text-center p-4">
-                23 años siendo <span className="rose"> Tu mejor compañia!!!</span>
+                23 años siendo <span className="rose"> Tu Mejor Compañia!!!</span>
             </h2>
             <div className='header'>
                 <Carrousel />

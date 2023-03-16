@@ -219,12 +219,12 @@ const teamCards = [
     id: 14,
     name: "Monica Gonzalez",
     img: cardimg14,
-    participations: '',
+    participations: '"Resumen 24"',
   },{
     id: 15,
     name: "Santy",
     img: cardimg15,
-    participations: '',
+    participations: '"La Mañana del Gorrión"',
   },{
     id: 16,
     name: "Aldana Roca",

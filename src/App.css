@@ -44,12 +44,12 @@
 
 .carousel-container {
   width: 800px;
-  height: 480px;
+  height: 500px;
 }
 .carousel-item img {
-  /* object-fit: cover; */
+  object-fit: cover;
   width: 800px;
-  height: 480px;
+  height: 500px;
 }
 /* Player */
 

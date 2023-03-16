@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="text-center m-4">
           <p>
             El 1 de agosto del año 2000, comenzaba a emitir su señal FM Master en su canal digital 105.30 mhz, con la dirección de Juan Mastrángelo y Graciela Curone, teniendo su planta
-            transmisora en avenida 40 n° 732, 4 años después con su propia planta y estudio, en avenida 26 n° 2001, formandose el Grupo Master con la emisión de una nueva señal denominada FM Mas 106.50 mhz,
+            transmisora en avenida 40 n° 732, 4 años después con su propia planta y estudio, en avenida 26 n° 2001, formandose así el Grupo Master de Comunicación con la emisión de una nueva señal denominada FM Mas 106.50 mhz,
             y el formato digital <a href="https://elsemanariomiramar.com.ar/" target="_blank">El semanario del sudeste</a>.
           </p>
           <p>
