@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TeamCard from "./TeamCard.jsx";
 import flag from "../assets/images/flag.png";
-import { teamCards } from "../utils/utils.js";
+import { teamCards } from "../utils/Teamcards.utils.js";
 const TeamCards = () => {
   const responsive = {
     superLargeDesktop: {

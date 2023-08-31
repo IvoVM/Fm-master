@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import { carouselContent } from "../utils/utils.js";
+import { carouselContent } from "../utils/Carrousel.utils.js";
 import Image from "react-bootstrap/Image";
 function Carrousel() {
   return (

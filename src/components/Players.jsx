@@ -1,5 +1,5 @@
 import Player from "./Player";
-import { players } from "../utils/utils";
+import { players } from "../utils/Players.utils.js";
 const Players = () => {
   return (
     <section id="players" >
