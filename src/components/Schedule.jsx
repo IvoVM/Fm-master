@@ -82,7 +82,6 @@ function ScheduleAcordion() {
                             <ListGroup.Item>9:00hs a 12:00: Arriba Miramar</ListGroup.Item>
                             <ListGroup.Item>12:00hs a 16:00hs: Evocando tangos y batidos musicales</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00: A Cami tenes</ListGroup.Item>
-                            <ListGroup.Item>18:00hs a 20:00: Que lo sepa la calle</ListGroup.Item>
                             <ListGroup.Item>20:00hs a 22:00: De todo un poco</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
