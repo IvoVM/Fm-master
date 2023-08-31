@@ -17,6 +17,7 @@ import cardimg15 from "../assets/images/TeamCards/ezequiel.jpg";
 import cardimg16 from "../assets/images/TeamCards/monica.jpg";
 import cardimg17 from "../assets/images/TeamCards/santy.jpg";
 import cardimg18 from "../assets/images/TeamCards/aldy.jpg";
+import cardImg19 from "../assets/images/TeamCards/Karina-Diaz.jpeg";
 
 // TeamCards Component
 
@@ -87,11 +88,17 @@ const teamCards = [
     img: cardimg11,
     participations: '"Abriendo Caminos',
   },
+  // {
+  //   id: 12,
+  //   name: "Gelli, Alejandra, Dylan",
+  //   img: cardimg12,
+  //   participations: '"Que lo sepa la calle"',
+  // },
   {
     id: 12,
-    name: "Gelli, Alejandra, Dylan",
-    img: cardimg12,
-    participations: '"Que lo sepa la calle"',
+    name: "Pastora Karina Díaz",
+    participations: '"Tiempo de Evangelizar"',
+    img: cardImg19
   },
   {
     id: 13,
