@@ -33,8 +33,8 @@ const TeamCards = () => {
         <img src={flag} />
       </div>
       <Carousel responsive={responsive}>
-        {teamCards.map((item) => (
-          <TeamCard key={item.id} props={item} />
+        {teamCards.map((item, index) => (
+          <TeamCard key={index} props={item} />
         ))}
       </Carousel>
     </section>
