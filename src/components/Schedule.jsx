@@ -12,7 +12,6 @@ function ScheduleAcordion() {
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
                             <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
-                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
@@ -25,11 +24,9 @@ function ScheduleAcordion() {
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
                             <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
-                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
-                            <ListGroup.Item>18:00hs a 20:00hs: Abriendo caminos</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
                 </Accordion.Item>
@@ -39,7 +36,6 @@ function ScheduleAcordion() {
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
                             <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
-                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
@@ -52,7 +48,6 @@ function ScheduleAcordion() {
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
                             <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
-                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
@@ -66,7 +61,6 @@ function ScheduleAcordion() {
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
                             <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
-                            <ListGroup.Item>10:30hs a 12:30hs: La Mañana del Gorrión</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
@@ -91,6 +85,7 @@ function ScheduleAcordion() {
                     <Accordion.Header>Domingo</Accordion.Header>
                     <Accordion.Body>
                         <ListGroup>
+                        <ListGroup.Item>7:00hs a 9:00hs: Pasión de pesca</ListGroup.Item>
                             <ListGroup.Item>9:00hs a 17:00hs: Batidos musicales y evocando tangos</ListGroup.Item>
                             <ListGroup.Item>17:00hs a 19:00hs: Con esencia romántica</ListGroup.Item>
                         </ListGroup>
