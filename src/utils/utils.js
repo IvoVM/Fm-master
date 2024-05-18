@@ -38,9 +38,7 @@ import cardimg15 from "../assets/images/TeamCards/ezequiel.jpg";
 import cardimg16 from "../assets/images/TeamCards/monica.jpg";
 import cardimg17 from "../assets/images/TeamCards/santy.jpg";
 import cardimg18 from "../assets/images/TeamCards/aldy.jpg";
-
-
-
+import cardimg19 from "../assets/images/TeamCards/pasion-de-pesca.jpeg";
 
 // Carrousel Component
 
@@ -122,117 +120,109 @@ const players = [
     url: "https://www.solumedia.com.ar/radios/8776/index.html",
     title: "Master",
   },
-  {
-    id: 2,
-    url: "https://www.solumedia.com.ar/radios/6240/index.html",
-    title: "+MAS",
-  },
+  // {
+  //   id: 2,
+  //   url: "https://www.solumedia.com.ar/radios/6240/index.html",
+  //   title: "+MAS",
+  // },
 ];
 // TeamCards Component
 
 const teamCards = [
   {
-    id: 1,
     name: "Juan Mastrángelo",
     img: cardimg1,
     participations: '"Resumen 24"',
   },
+  // {
+  //   name: 'Daniel "Gorrión" Cepeda',
+  //   img: cardimg2,
+  //   participations: '"La mañana del gorrión"',
+  // },
   {
-    id: 2,
-    name: 'Daniel "Gorrión" Cepeda',
-    img: cardimg2,
-    participations: '"La mañana del gorrión"',
-  },
-  {
-    id: 3,
     name: "Veronica Morosinotto",
     img: cardimg3,
     participations: '"Mastermanía"',
   },
   {
-    id: 4,
     name: "Clara Alvarenga",
     img: cardimg4,
     participations: '"Claramente Romántica"',
   },
   {
-    id: 5,
     name: "Hernan Marino",
     img: cardimg5,
     participations: '"Batidos musicales y Evocando tangos"',
   },
   {
-    id: 6,
     name: "Camila López",
     img: cardimg6,
     participations: '"A Cami Tenes"',
   },
   {
-    id: 7,
     name: 'Alberto "Chinito" Medrano',
     img: cardimg7,
     participations: '"Recorriendo el Litoral" y "Con Esencia Romántica"',
   },
   {
-    id: 8,
     name: "Jorge Caraballo",
     img: cardimg8,
     participations: '"De todo un poco"',
   },
   {
-    id: 9,
     name: "Agui Romero",
     img: cardimg9,
     participations: '"Saltando sin parar"',
-  },{
-    id: 10,
+  },
+  {
     name: "Jonatan Troussel",
     img: cardimg10,
     participations: '"La Matera"',
-  },{
-    id: 11,
-    name: "Pablo, Marcelo y Nadia",
-    img: cardimg11,
-    participations: '"Abriendo Caminos',
   },
   {
-    id: 12,
-    name: "Gelli, Alejandra, Dylan",
-    img: cardimg12,
-    participations: '"Que lo sepa la calle"',
+    name: "Marcelo Arias",
+    img: cardimg19,
+    participations: '"Pasión de pesca"',
   },
+  // {
+  //   name: "Pablo, Marcelo y Nadia",
+  //   img: cardimg11,
+  //   participations: '"Abriendo Caminos',
+  // },
+  // {
+  //   name: "Gelli, Alejandra, Dylan",
+  //   img: cardimg12,
+  //   participations: '"Que lo sepa la calle"',
+  // },
   {
-    id: 13,
     name: "Gustavo Olarieta y Lucas",
     img: cardimg13,
     participations: '"Despertate noticias"',
   },
   {
-    id: 14,
     name: "Monica Tissone",
     img: cardimg14,
     participations: '"Arriba Miramar"',
   },
   {
-    id: 15,
     name: "Ezequiel Gutierrez",
     img: cardimg15,
     participations: '"De todo un poco"',
-  },{
-    id: 16,
+  },
+  {
     name: "Monica Gonzalez",
     img: cardimg16,
     participations: '"Resumen 24"',
-  },{
-    id: 17,
+  },
+  {
     name: "Santy",
     img: cardimg17,
     participations: '"La Mañana del Gorrión"',
-  },{
-    id: 18,
+  },
+  {
     name: "Aldana Roca",
     img: cardimg18,
-    participations: '',
+    participations: "",
   },
 ];
 
