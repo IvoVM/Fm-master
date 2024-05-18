@@ -180,7 +180,7 @@ const teamCards = [
     participations: '"La Matera"',
   },
   {
-    name: "Marcelo Arias",
+    name: "Marcelo Arias y Maury Cozzoli",
     img: cardimg19,
     participations: '"Pasión de pesca"',
   },

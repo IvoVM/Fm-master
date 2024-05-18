@@ -3,7 +3,7 @@ const TeamCard = (props) => {
     <div className="card">
       <img className="card-image" src={props.props.img} alt="equipo master" />
       <div className="card-description">
-        <h4 className="pt-1"> {props.props.name}</h4>
+        <h4 className="pt-4"> {props.props.name}</h4>
         <h5 className="rose">Programas:</h5>
         <p>{props.props.participations}</p>
       </div>
