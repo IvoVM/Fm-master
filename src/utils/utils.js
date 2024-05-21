@@ -39,6 +39,7 @@ import cardimg16 from "../assets/images/TeamCards/monica.jpg";
 import cardimg17 from "../assets/images/TeamCards/santy.jpg";
 import cardimg18 from "../assets/images/TeamCards/aldy.jpg";
 import cardimg19 from "../assets/images/TeamCards/pasion-de-pesca.jpeg";
+import cardimg20 from "../assets/images/TeamCards/la-voz-de-dios.jpeg";
 
 // Carrousel Component
 
@@ -198,6 +199,11 @@ const teamCards = [
     name: "Gustavo Olarieta y Lucas",
     img: cardimg13,
     participations: '"Despertate noticias"',
+  },
+  {
+    name: "Pastores Damián y Horacio",
+    img: cardimg20,
+    participations: '"La voz de Dios"',
   },
   {
     name: "Monica Tissone",

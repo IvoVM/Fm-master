@@ -37,19 +37,25 @@
 }
 /* Header */
 .header {
-  margin: 0 20px;
-  display: flex;
+  margin: 0 100px;
+  /* display: flex; */
 }
 /* Carousel */
 
 .carousel-container {
-  width: 800px;
-  height: 500px;
+  /* width: 800px; */
+  width: 100%;
+  /* height: 500px; */
+  max-height: 800px;
+
 }
 .carousel-item img {
   object-fit: cover;
-  width: 800px;
-  height: 500px;
+  /* width: 800px; */
+  width: 100%;
+
+  /* height: 500px; */  height: 800px;
+
 }
 /* Player */
 
@@ -145,3 +151,9 @@
     width: 320px;
   }
 }
+
+
+
+
+
+

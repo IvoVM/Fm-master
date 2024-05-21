@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilizar la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del track (fondo) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color del pulgar (thumb) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar al pasar el ratón */
+}

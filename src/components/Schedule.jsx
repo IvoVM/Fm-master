@@ -15,6 +15,8 @@ function ScheduleAcordion() {
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                            <ListGroup.Item>18:00hs a 20:30hs:                         La voz de Dios
+                            </ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
                 </Accordion.Item>
@@ -85,7 +87,7 @@ function ScheduleAcordion() {
                     <Accordion.Header>Domingo</Accordion.Header>
                     <Accordion.Body>
                         <ListGroup>
-                        <ListGroup.Item>7:00hs a 9:00hs: Pasión de pesca</ListGroup.Item>
+                            <ListGroup.Item>7:00hs a 9:00hs: Pasión de pesca</ListGroup.Item>
                             <ListGroup.Item>9:00hs a 17:00hs: Batidos musicales y evocando tangos</ListGroup.Item>
                             <ListGroup.Item>17:00hs a 19:00hs: Con esencia romántica</ListGroup.Item>
                         </ListGroup>
