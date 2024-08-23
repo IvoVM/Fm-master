@@ -20,7 +20,7 @@ import carimg17 from "../assets/images/carousel/car19.jpeg";
 
 // Import  TeamCards Component Images
 
-import cardimg1 from "../assets/images/TeamCards/JUAN.jpg";
+import cardimg1 from "../assets/images/TeamCards/JUAN.jpeg";
 import cardimg2 from "../assets/images/TeamCards/dany 2.jpg";
 import cardimg3 from "../assets/images/TeamCards/VERO.jpg";
 import cardimg4 from "../assets/images/TeamCards/clara.jpeg";
