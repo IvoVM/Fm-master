@@ -11,11 +11,10 @@ function ScheduleAcordion() {
                     <Accordion.Body>
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
-                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  Resumen 24</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
-                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
-                            <ListGroup.Item>18:00hs a 20:30hs:                         La voz de Dios
+                            <ListGroup.Item>18:00hs a 20:30hs: La voz de Dios
                             </ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
@@ -25,10 +24,9 @@ function ScheduleAcordion() {
                     <Accordion.Body>
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
-                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  Resumen 24</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
-                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
                 </Accordion.Item>
@@ -37,10 +35,9 @@ function ScheduleAcordion() {
                     <Accordion.Body>
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
-                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs: Resumen 24</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
-                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
                 </Accordion.Item>
@@ -49,10 +46,9 @@ function ScheduleAcordion() {
                     <Accordion.Body>
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
-                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs: Resumen 24</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
-                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
                             <ListGroup.Item>20:00hs a 22:00hs: De todo un poco</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
@@ -62,11 +58,12 @@ function ScheduleAcordion() {
                     <Accordion.Body>
                         <ListGroup>
                             <ListGroup.Item>6:00hs a 8:00hs: La Matera</ListGroup.Item>
-                            <ListGroup.Item>8:00hs a 10:30hs:  resumen 24</ListGroup.Item>
+                            <ListGroup.Item>8:00hs a 10:30hs:  Resumen 24</ListGroup.Item>
                             <ListGroup.Item>12:30hs a 14:00hs: Evocando tangos</ListGroup.Item>
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
-                            <ListGroup.Item>16:00hs a 18:00hs: Mastermanía</ListGroup.Item>
+                            <ListGroup.Item>19:00hs a 20:00hs: Está escrito</ListGroup.Item>
                             <ListGroup.Item>20:00hs a 22:00hs: De todo un poco</ListGroup.Item>
+                            <ListGroup.Item>20:00hs a 22:00hs: Más vale tarde</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
                 </Accordion.Item>

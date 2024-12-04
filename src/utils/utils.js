@@ -40,6 +40,8 @@ import cardimg17 from "../assets/images/TeamCards/santy.jpg";
 import cardimg18 from "../assets/images/TeamCards/aldy.jpg";
 import cardimg19 from "../assets/images/TeamCards/pasion-de-pesca.jpeg";
 import cardimg20 from "../assets/images/TeamCards/la-voz-de-dios.jpeg";
+import cardimg21 from "../assets/images/TeamCards/mas-vale-tarde.jpg"
+import cardimg22 from "../assets/images/TeamCards/esta-escrito.jpg";
 
 // Carrousel Component
 
@@ -204,6 +206,15 @@ const teamCards = [
     name: "Pastores Damián y Horacio",
     img: cardimg20,
     participations: '"La voz de Dios"',
+  },
+  {
+    name: "Noelia y Matias",
+    img: cardimg21,
+    participations: '"Más vale tarde"',
+  }, {
+    name: "Luciana",
+    img: cardimg22,
+    participations: '"Está escrito"',
   },
   {
     name: "Monica Tissone",
