@@ -63,7 +63,7 @@ function ScheduleAcordion() {
                             <ListGroup.Item>14:00hs a 16:00hs: Saltando sin parar</ListGroup.Item>
                             <ListGroup.Item>19:00hs a 20:00hs: Está escrito</ListGroup.Item>
                             <ListGroup.Item>20:00hs a 22:00hs: De todo un poco</ListGroup.Item>
-                            <ListGroup.Item>20:00hs a 22:00hs: Más vale tarde</ListGroup.Item>
+                            <ListGroup.Item>22:00hs a 24:00hs: Más vale tarde</ListGroup.Item>
                         </ListGroup>
                     </Accordion.Body>
                 </Accordion.Item>
