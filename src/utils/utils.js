@@ -142,11 +142,11 @@ const teamCards = [
   //   img: cardimg2,
   //   participations: '"La mañana del gorrión"',
   // },
-  {
-    name: "Veronica Morosinotto",
-    img: cardimg3,
-    participations: '"Mastermanía"',
-  },
+  // {
+  //   name: "Veronica Morosinotto",
+  //   img: cardimg3,
+  //   participations: '"Mastermanía"',
+  // },
   {
     name: "Clara Alvarenga",
     img: cardimg4,
