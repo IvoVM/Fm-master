@@ -47,15 +47,14 @@
   width: 100%;
   /* height: 500px; */
   max-height: 800px;
-
 }
 .carousel-item img {
   object-fit: cover;
   /* width: 800px; */
   width: 100%;
 
-  /* height: 500px; */  height: 800px;
-
+  /* height: 500px; */
+  height: 800px;
 }
 /* Player */
 
@@ -78,7 +77,6 @@
   padding: 2rem 0;
 }
 
-
 .card {
   max-width: 320px;
   margin: auto 1rem;
@@ -87,23 +85,20 @@
   cursor: pointer;
   border-radius: 8px;
 }
-.card:hover{
+.card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 .card-image {
   object-fit: cover;
   height: 400px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  
 }
 .card-description {
   background-color: #f1faee;
   font-weight: 800;
   height: 170px;
   border-radius: 8px;
-
 }
 
 /* Contact Me */
@@ -133,6 +128,17 @@
     padding: 0 2rem;
   }
 }
+
+.h-100-responsive {
+  height: 100%;
+}
+
+@media (max-width: 1399.98px) {
+  .h-100-responsive {
+    height: 700px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .live p {
     margin: 0 !important;
@@ -141,9 +147,13 @@
   .about {
     flex-wrap: wrap;
   }
-  .semanario {
+  /* .semanario {
     width: 100% !important;
-  }
+  } */
+}
+
+.semanario {
+  min-height: 700px;
 }
 
 @media screen and (max-width: 576px) {
@@ -161,9 +171,3 @@
     width: 320px;
   }
 }
-
-
-
-
-
-
