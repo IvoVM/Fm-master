@@ -147,14 +147,12 @@
   .about {
     flex-wrap: wrap;
   }
-  /* .semanario {
+  .semanario {
     width: 100% !important;
-  } */
+  }
 }
 
-.semanario {
-  min-height: 700px;
-}
+
 
 @media screen and (max-width: 576px) {
   .carousel-container {
