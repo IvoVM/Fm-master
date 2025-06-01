@@ -4,8 +4,8 @@ import Image from "react-bootstrap/Image";
 function Carrousel() {
   return (
       <Carousel fade className="carousel-container">
-        {carouselContent.map((item) => (
-          <Carousel.Item key={item.id}>
+        {carouselContent.map((item, i) => (
+          <Carousel.Item key={i}>
             <Image fluid={true} src={item.img} alt="slide img" />
           </Carousel.Item>
         ))}

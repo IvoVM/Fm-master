@@ -17,9 +17,18 @@ import carimg14 from "../assets/images/carousel/car16.jpg";
 import carimg15 from "../assets/images/carousel/car17-edit.jpg";
 import carimg16 from "../assets/images/carousel/car18-edit.jpg";
 import carimg17 from "../assets/images/carousel/car19.jpeg";
+import carimg18 from "../assets/images/carousel/carimg22.jpg";
+import carimg19 from "../assets/images/carousel/carimg23.jpg";
+import carimg20 from "../assets/images/carousel/carimg24.jpg";
+import carimg21 from "../assets/images/carousel/carimg25.jpg";
+import carimg22 from "../assets/images/carousel/carimg26.jpg";
+import carimg23 from "../assets/images/carousel/carimg18.jpg";
+import carimg24 from "../assets/images/carousel/carimg19.jpg";
+import carimg25 from "../assets/images/carousel/carimg20.jpg";
+import carimg26 from "../assets/images/carousel/carimg21.jpg";
+import carimg27 from "../assets/images/carousel/carimg27.jpg";
 
 // Import  TeamCards Component Images
-
 import cardimg1 from "../assets/images/TeamCards/JUAN.jpeg";
 import cardimg2 from "../assets/images/TeamCards/dany 2.jpg";
 import cardimg3 from "../assets/images/TeamCards/VERO.jpg";
@@ -40,42 +49,64 @@ import cardimg17 from "../assets/images/TeamCards/santy.jpg";
 import cardimg18 from "../assets/images/TeamCards/aldy.jpg";
 import cardimg19 from "../assets/images/TeamCards/pasion-de-pesca.jpeg";
 import cardimg20 from "../assets/images/TeamCards/la-voz-de-dios.jpeg";
-import cardimg21 from "../assets/images/TeamCards/mas-vale-tarde.jpg"
+import cardimg21 from "../assets/images/TeamCards/mas-vale-tarde.jpg";
 import cardimg22 from "../assets/images/TeamCards/esta-escrito.jpg";
 
 // Carrousel Component
 
 const carouselContent = [
+   {
+    img: carimg18,
+  },
+  // {
+  //   img: carimg27,
+  // },
+  // {
+  //   img: carimg19,
+  // },
+  // {
+  //   img: carimg20,
+  // },
   {
-    id: 1,
+    img: carimg21,
+  },
+  {
+    img: carimg22,
+  },
+  {
+    img: carimg23,
+  },
+  {
+    img: carimg24,
+  },
+  // {
+  //   img: carimg25,
+  // },
+  {
+    img: carimg26,
+  },
+  {
     img: carimg1,
   },
   {
-    id: 2,
     img: carimg2,
   },
   {
-    id: 3,
     img: carimg3,
   },
   {
-    id: 4,
     img: carimg4,
   },
   {
-    id: 5,
     img: carimg5,
   },
   {
-    id: 6,
     img: carimg6,
   },
   {
-    id: 7,
     img: carimg7,
   },
   {
-    id: 8,
     img: carimg8,
   },
   {
@@ -114,6 +145,9 @@ const carouselContent = [
     id: 17,
     img: carimg17,
   },
+  {
+    img: carimg17,
+  }
 ];
 
 // Player Component
@@ -211,7 +245,7 @@ const teamCards = [
     name: "Noelia y Matias",
     img: cardimg21,
     participations: '"Más vale tarde"',
-  }, 
+  },
   // {
   //   name: "Luciana",
   //   img: cardimg22,
