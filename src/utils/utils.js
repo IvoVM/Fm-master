@@ -211,11 +211,13 @@ const teamCards = [
     name: "Noelia y Matias",
     img: cardimg21,
     participations: '"Más vale tarde"',
-  }, {
-    name: "Luciana",
-    img: cardimg22,
-    participations: '"Está escrito"',
-  },
+  }, 
+  // {
+  //   name: "Luciana",
+  //   img: cardimg22,
+  //   participations: '"Está escrito"',
+  // },
+
   {
     name: "Monica Tissone",
     img: cardimg14,
