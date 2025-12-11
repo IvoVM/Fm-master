@@ -1,8 +1,8 @@
-import Player from "./Player";
-import { players } from "../utils/utils";
 import logo from "../assets/images/grupo-master-logo.jpeg";
 import publiCirco from "../assets/images/publi_circo.jpeg";
-import publiCirco2 from "../assets/images/publi_circo_2.jpeg";
+import { players } from "../utils/utils";
+import Player from "./Player";
+
 const Players = () => {
   return (
     <section id="players" className="row mt-4 px-3 g-3 align-items-center">
@@ -33,16 +33,6 @@ const Players = () => {
         {players.map((item) => (
           <Player key={item.id} info={item} />
         ))}{" "}
-      </div>{" "}
-      {/* Publicidad circo derecha */}{" "}
-      <div className="col-12 col-md-2 d-flex justify-content-center">
-        {" "}
-        <img
-          src={publiCirco2}
-          alt="Publicidad del circo 2"
-          className="img-fluid"
-          style={{ maxHeight: "300px", objectFit: "contain" }}
-        />{" "}
       </div>{" "}
     </section>
   );
