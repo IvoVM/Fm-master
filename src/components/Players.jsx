@@ -6,18 +6,17 @@ import Player from "./Player";
 const Players = () => {
   return (
     <section id="players" className="row mt-4 px-3 g-3 align-items-center">
-      {" "}
       {/* Publicidad circo izquierda */}{" "}
       <div className="col-12 col-md-2 d-flex justify-content-center">
-        {" "}
-        <img
+
+       {/*  <img
           src={publiCirco}
           alt="Publicidad del circo"
           className="img-fluid"
           style={{ maxHeight: "300px", objectFit: "contain" }}
-        />{" "}
-      </div>{" "}
-      {/* Logo */}{" "}
+        /> */}
+      </div>
+      {/* Logo */}
       <div className="col-12 col-md-4 d-flex justify-content-center">
         {" "}
         <img
